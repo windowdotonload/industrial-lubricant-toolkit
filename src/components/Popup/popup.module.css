@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+  height: 100%;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  color: #999;
+  border-bottom: 3px solid #e9e9e9;
+}
+.popup-title {
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+}
+.sel-list-container {
+  box-sizing: border-box;
+  height: calc(100% - 50px);
+  overflow-y: auto;
+}
+.bottom-btn {
+  padding: 6px;
+  width: 90%;
+  bottom: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  background-color: #d10000;
+  margin: 0 auto;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
